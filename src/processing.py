@@ -11,7 +11,6 @@ def filter_by_state(data: List[Dict[str, Any]], state: str = "EXECUTED") -> List
 def sort_by_date(data: List[Dict[str, Any]], descending: bool = True) -> List[Dict[str, Any]]:
     """
     Сортирует список словарей по значению ключа 'date'.
-
     :param data: Список словарей для сортировки.
     :param descending: Если True (по умолчанию), сортировка идет от новых дат к старым (убывание).
                        Если False — от старых к новым (возрастание).
